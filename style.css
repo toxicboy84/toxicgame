@@ -1,0 +1,121 @@
+body{
+    background: url(aa.png);
+    background-size:50%;
+    }
+    .l{
+        color: lime;
+        font-size: 100%;
+    }
+    .a{
+
+        font-size: 150%;
+        color: lime;
+    }
+    nav{
+        display: inline-flex;
+    }
+    hr{
+        color: lime;
+        size: 50px;
+    }
+    .cl-1{
+        display: inline-flexbox;
+
+    }
+    .about{
+        display: inline-flex;
+    }
+    .t{
+        color: lime;
+    }
+    .v{
+            font-size: 100%;
+            width: 90%;
+            height: 100%;
+            color: black;
+            background-color: rgb(35, 0, 57);
+            border: 4px;
+            border-style: solid;
+            border-color:  red;
+            border-bottom: 4px dashed red;
+            border-top: 4px dashed red;
+            font: white;
+        
+        }
+        .v1{
+            font-size: 100%;
+            width: 90%;
+            height: 100%;
+            color: black;
+            background-color: rgb(35, 0, 57);
+            border: 4px;
+            border-style: solid;
+            border-color:  lime;
+            border-bottom: 4px dashed lime;
+            border-top: 4px dashed lime;
+            font: white;
+        
+        }
+        .v2{
+            font-size: 100%;
+            width: 90%;
+            height: 100%;
+            color: black;
+            background-color: rgb(35, 0, 57);
+            border: 4px;
+            border-style: solid;
+            border-color:  blue;
+            border-bottom: 4px dashed blue;
+            border-top: 4px dashed blue;
+            font: white;
+        }
+        .v4{
+            font-size: 100%;
+            width: 90%;
+            height: 100%;
+            color: black;
+            background-color: rgb(35, 0, 57);
+            border: 4px;
+            border-style: solid;
+            border-color:  white;
+            border-bottom: 4px dashed white;
+            border-top: 4px dashed white;
+            font: white;
+        }
+
+       
+
+        
+          
+          
+          * {
+            box-sizing: border-box;
+          }
+        
+          .column {
+            width: 25%;
+          }
+        
+          .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            padding-top: 100px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.688);
+          }
+          
+        
+          .close {
+            color: rgb(255, 0, 0);
+            position: absolute;
+            top: 10px;
+            right: 25px;
+            font-size: 55px;
+            font-weight: bold;
+          }
+        
